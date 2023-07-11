@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/new-super-mario-font-u" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+    <title>Projeto Super Mario Bros</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/img/logo-mb.png" alt="Logo Mario Bros">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="título">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+
+                <li class="personagem selecionado" id="Mario" data-name=" Mario Bros" data-description="Herói do Reino dos Cogumelos, A principal habilidade do personagem consiste em consumir itens para alterar sua forma." data-text-length="curto">
+                    <img src="./src/img/100px-SMP_Icon_Mario.png" alt="Personagem Mario">
+                </li>
+
+                <li class="personagem" id="Luigi" data-name="Luigi" data-description="Irmão de Mario, esse encanador de roupa verde se diferencia por ter o pulo mais alto entre todos os personagens." data-text-length="curto">
+                    <img src="./src/img/100px-SMP_Icon_Luigi.png" alt="Personagem Luigi">
+                </li>
+
+                <li class="personagem" id="Peach" data-name="Peach" data-description="Originalmente conhecida como Princesa Toadstool, a realeza do Reino dos Cogumelos recebeu seu atual nome com o passar dos anos." data-text-length="curto">
+                    <img src="./src/img/100px-SMP_Icon_Peach.png" alt="Personagem Peach">
+                </li>
+
+                <li class="personagem" id="Daisy" data-name="Daisy" data-description="Também conhecida como princesa das Margaridas, do reino de Sarasaland, tem habilidade de criar flores venenosas e enviar aos seus inimigos." data-text-length="curto">
+                    <img src="./src/img/100px-SMP_Icon_Daisy.png" alt="Personagem Daisy">
+                </li>
+
+                <li class="personagem" id="Rosalina" id="Peach" data-name="Rosalina" data-description="Rainha das Lumas, é mãe e quando sua energia é restaurada para o observatório cometa ela pode fazer um grande campo de força transformando-o em uma nave espacial." data-text-length="curto">
+                    <img src="./src/img/100px-SMP_Icon_Rosalina.png" alt="Personagem Rosalina">
+                </li>
+
+                <li class="personagem" id="Yoshi" data-name="Yoshi" data-description="Yoshi é um dinossauro que existe desde os anos 90 e tornou-se conhecido pelos pés ligeiros e pela língua longa e flexível." data-text-length="curto" >
+                    <img src="./src/img/100px-SMP_Icon_Yoshi.png" alt="Personagem Yoshi">
+                </li>
+
+                <li class="personagem" id="DK" data-name="Donkey Kong" data-description="Adora se aventurar pela selva. Usa uma gravata elegante.">
+                    <img src="./src/img/100px-SMP_Icon_DK.png" alt="Personagem DK">
+                </li>
+                
+                <li class="personagem" id="Diddy" data-name="Diddy Kong" data-description="Ele parece inofensivo, mas na verdade é muito astuto.">
+                    <img src="./src/img/100px-SMP_Icon_Diddy.png" alt="Personagem Diddy">
+                </li>
+                <li class="personagem" id="Goomba" data-name="Goomba" data-description="Ele é a linha de frente de ataque do Bowser.">
+                    <img src="./src/img/100px-SMP_Icon_Goomba.png" alt="Personagem Goomba">
+                </li>
+
+                <li class="personagem" id="Shy-Guy" data-name="Shy Guy" data-description="Ele é um patife mascarado. Sempre parece estar no caminho.">
+                    <img src="./src/img/100px-SMP_Icon_Shy_Guy.png" alt="Personagem Shy Guy">
+                </li>
+
+                <li class="personagem" id="Hammer-Bro" data-name="Hammer Bro" data-description="Ele é um membro de elite da Tropa Koopa do Bowser. Ele usa um capacete.">
+                    <img src="./src/img/100px-SMP_Icon_Hammer_Bro.png" alt="Personagem Hammer Bro">
+                </li>
+
+                <li class="personagem" id="Koopa-Troopa" data-name="Koopa Troopa" data-description="Ele é o causador de problemas do Reino dos Cogumelos. Carrega sua casa nas costas.">
+                    <img src="./src/img/100px-SMP_Icon_Koopa.png" alt="Personagem Koopa Troopa">
+                </li>
+
+                <li class="personagem" id="Bowser-Jr" data-name="Bowser Jr" data-description="Ele é filho do Bowser. Um verdadeiro mestre em causar problemas.">
+                    <img src="./src/img/100px-SMP_Icon_Jr.png" alt="Personagem Bowser Jr.">
+                </li>
+
+                <li class="personagem" id="Bowser" data-name="Bowser" data-description="Bowser é uma espécie de tartaruga dinossauro, sendo o principal vilão, tem uma frota de navios piratas voadores, um veículo de palhaço com hélices e uma horda interminável de “Koopa Troopas”, “Goombas”.">
+                    <img src="./src/img/100px-SMP_Icon_Bowser.png" alt="Personagem Bowser">
+                </li>
+
+                <li class="personagem" id="Wario" data-name="Wario" data-description="Esse é um sujeito rude e grosseiro, gosta de se gabar...">
+                    <img src="./src/img/100px-SMP_Icon_Wario.png" alt="Personagem Wario">
+                </li>
+
+                <li class="personagem" id="Waluigi" data-name="Waluigi" data-description="O parceiro de Wario e o maior rival de Luigi (pelo menos é o que ele pensa).">
+                    <img src="./src/img/100px-SMP_Icon_Waluigi.png" alt="Personagem Waluigi">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/img/select-mario.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Mario</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Herói do Reino dos Cogumelos, A principal habilidade do personagem consiste em consumir itens para alterar sua forma. Por exemplo, ele consegue aumentar de tamanho ao comer certos cogumelos e atirar bolas de fogo ao coletar flores especiais
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
