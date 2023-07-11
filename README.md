@@ -12,7 +12,7 @@ Projeto realizado por William Ramos, pelas dicas e segmentos do Dev em Dobro. <b
 </p>
 
 <p align="center">
-  <img alt="Meu Projeto em Construção" src="src/assets/imgreadme.png">
+  <img alt="Meu Projeto em Construção" src="src/img/imgreadme.png">
 </p>
 
 <br>
